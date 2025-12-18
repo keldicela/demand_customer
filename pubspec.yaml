@@ -1,0 +1,139 @@
+name: demand
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0'
+  flutter: '>=3.27.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3
+  flutter_bloc: ^9.1.1
+  provider: ^6.1.5
+  get_it: ^8.0.3
+  dio: ^5.8.0+1
+  freezed: ^3.0.6
+  dartz: ^0.10.1
+  url_launcher: ^6.3.1
+  connectivity_plus: ^6.1.4
+  flutter_isolate: ^2.1.0
+  webview_flutter: ^4.13.0
+  ftoast: ^2.0.0
+  flutter_displaymode: ^0.6.0
+  flutter_downloader: ^1.12.0
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.0+1
+  add_2_calendar: ^3.0.1
+  bloc: ^9.0.0
+
+  #ui
+  intl: ^0.20.2
+  flutter_screenutil: ^5.9.3
+  pull_to_refresh: ^2.0.0
+  google_fonts: ^6.2.1
+  flutter_remix: ^0.0.3
+  flutter_native_splash: ^2.4.6
+  flutter_keyboard_visibility: ^6.0.0
+  proste_indexed_stack: ^0.2.4
+  flutter_svg: ^2.2.0
+  carousel_slider: ^5.1.1
+  smooth_page_indicator: ^1.2.1
+  flutter_html: ^3.0.0
+  zoom_pinch_overlay: ^1.4.3
+  rotated_corner_decoration: ^2.1.0+1
+  lottie: ^3.3.1
+  flutter_speed_dial: ^7.0.0
+  flutter_advanced_switch: ^3.1.0
+  flutter_slidable: ^4.0.0
+  swipe_to: ^1.0.6
+  flutter_swipe_detector: ^2.0.0
+  flutter_rating_bar: ^4.0.1
+  auto_size_text: ^3.0.0
+  grouped_list: ^6.0.0
+  sms_autofill: ^2.4.1
+  phone_text_field: ^0.0.7
+  colornames: ^0.2.0
+  jiffy: ^6.4.3
+  readmore: ^3.0.0
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_calendar_carousel: ^2.5.4
+  easy_date_timeline:
+    git:
+      url: https://github.com/Muhammadyunusxon/easy_date_timeline.git
+      ref: dev
+  freezed_annotation: ^3.0.0
+  share_plus: ^11.0.0
+  intl_phone_field: ^3.2.0
+  payfast:
+    git:
+      url: https://github.com/Muhammadyunusxon/payfast_flutter.git
+  collection: ^1.19.1
+  shimmer: ^3.0.0
+
+  #media:
+  chewie: ^1.11.3
+  photo_view: ^0.15.0
+  file_picker: ^10.2.0
+  image_picker: ^1.1.2
+  video_player: ^2.10.0
+  cached_network_image: ^3.4.1
+
+  #maps:
+  geolocator: ^14.0.1
+  google_place:
+    git:
+      url: https://github.com/Muhammadyunusxon/google_place.git
+  osm_nominatim: ^3.0.1
+  google_maps_flutter: ^2.12.3
+  map_launcher: ^3.5.0
+  google_maps_cluster_manager: ^3.1.0
+
+  #firebase:
+  firebase_core: ^3.14.0
+  firebase_auth: ^5.6.0
+  cloud_firestore: ^5.6.9
+  firebase_messaging: ^15.2.7
+  firebase_dynamic_links: ^6.1.7
+
+  #sign_in:
+  google_sign_in: ^6.3.0
+  sign_in_with_apple: ^7.0.1
+  flutter_facebook_auth: ^7.1.2
+  app_tracking_transparency: ^2.0.6+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  build_runner: ^2.5.4
+  flutter_launcher_icons: ^0.14.4
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: 'assets/images/app_logo.png'
+  adaptive_icon_foreground: 'assets/images/app_logo.png'
+  adaptive_icon_background: "#ffffff"
+
+flutter_native_splash:
+  background_image: 'assets/images/splash.png'
+  android_12:
+  fullscreen: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svg/
+    - assets/lottie/
+
